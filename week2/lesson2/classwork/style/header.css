@@ -1,0 +1,43 @@
+.header {
+    border: 1px solid black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+.header__logo {
+    font-size: 32px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list__item {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.list__item:last-child {
+    background-color: rgb(26, 137, 23);
+    padding: 10px 12px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 38px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+
+    margin: 0 50px;
+}

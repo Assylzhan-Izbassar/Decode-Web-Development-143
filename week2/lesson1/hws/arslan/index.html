@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style/core.css" />
+    <link rel="stylesheet" type="text/css" href="style/extra.css" />
+    <title></title>
+  </head>
+  <body>
+    
+    <!-- Создание блока правильный -->
+    <div class="content">
+      <!-- Название вложенных блоков должно быть block-1, block-2, block-3  -->
+      <!-- Поскольку одно нижнее подчеркивание означает модификатор -->
+      <div class="block-1">
+        <img src="image/mikkimaus.jpg" />
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipi elit. Illum, cumque!</p>
+      </div>
+
+      <div class="block-2">
+        <img src="image/mikkimaus.jpg" />
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipi elit. Illum, cumque!</p>
+      </div>
+
+      <div class="block-3">
+        <img src="image/mikkimaus.jpg" />
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipi elit. Illum, cumque!</p>
+      </div>
+    </div>
+
+    <!-- Еще один вариант использовать элекменты блока, то есть мы не можем отделить вот эти элекменты из блока content -->
+    <!-- Плюс элемента в том что вы не будете настраивать каждый из элекментов, а зададите всем элементам один и тот же класс -->
+    <div class="content2">
+      <div class="content2__element">
+        <img class="content2__image" src="imgs/1.png" />
+        <h3>Lorem, ipsum.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          laboriosam ullam provident non explicabo facilis natus tempora eum
+          temporibus sapiente.
+        </p>
+      </div>
+
+      <div class="content2__element">
+        <img class="content2__image" src="imgs/1.png" />
+        <h3>Lorem, ipsum.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          laboriosam ullam provident non explicabo facilis natus tempora eum
+          temporibus sapiente.
+        </p>
+      </div>
+
+      <div class="content2__element">
+        <img class="content2__image" src="imgs/1.png" />
+        <h3>Lorem, ipsum.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          laboriosam ullam provident non explicabo facilis natus tempora eum
+          temporibus sapiente.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

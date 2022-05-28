@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+  justify-content: space-between;
+}
+
+.content img {
+  border-radius: 100px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.content h3,
+p {
+  text-align: center;
+}
