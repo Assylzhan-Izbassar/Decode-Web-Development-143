@@ -1,0 +1,33 @@
+/* Теперь в стиле мы можем задавать размеры нашего блока content */
+
+.content {
+  width: 70%;
+  border: 3px solid red;
+  margin: 0 auto;
+}
+
+/* Пока что наш один элемент занимает всю полощадь родительского блока */
+.content__item {
+  /* Без display: inline-block; наши элементы станут в колонну. А значние inline-block это строчно-блочное значние */
+  display: inline-block;
+  background-color: mediumpurple;
+  text-align: center;
+  /* Давайте его ограничим. Поскольку у нас есть 3 элемента в блоке. 100% ширину разделим на 3 и получим 33%.*/
+  width: 33%;
+}
+
+.content__item img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+/* Цветами я указываю блочные элементы, какую ширину они занимают */
+.content__item p {
+  background-color: lightcoral;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.content h1 {
+  background-color: lightyellow;
+}

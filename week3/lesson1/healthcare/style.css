@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fjalla+One&family=Inconsolata:wght@200&family=Mulish:ital,wght@0,200;0,700;1,300&family=Oswald&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo { 
+    display: flex;
+}
+
+.logo h2 {
+    font-size: 24px;
+}
+
+.logo__image {
+    display: inline-block;
+}
+
+.logo__image {
+    width: 41px;
+    height: 41px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list__item {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 35.33px;
+    font-size: 18px;
+}
+
+.list__item:hover {
+    font-weight: 700;
+}
+
+.list__item:first-child {
+    margin-left: 0px;
+}
+
+/* Hi */
+
+.hi {
+    display: flex;
+    justify-content: space-between;
+    background: url('imgs/hi__img.png') 0 0 no-repeat;
+}
+
+.hi__left {
+    width: 450px;
+}
+
+.hi__left h2{
+    font-size: 48px;
+}  
+
+.hi__left p {
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.hi__image img {
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.hi button{
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #458FF6;
+    color: white;
+}

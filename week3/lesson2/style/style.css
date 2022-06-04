@@ -1,0 +1,117 @@
+.container h2 {
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
+
+.button__inner {
+    padding-top: 100px;
+}
+
+.button__item {
+    position: relative;
+    top: 0px;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: tomato;
+    border: 0px;
+    box-shadow: 0px 3px black;
+
+    color: white;
+
+    transition-duration: 1s;
+    transition-property: top, box-shadow;
+    /* transition-delay: 5s; */
+
+    transition-timing-function: ease;
+}
+
+.button__item:hover {
+    top: 3px;
+    box-shadow: 0px 0px black;
+}
+
+/* 
+button <- 
+    hover
+*/
+
+/* CONTENT */
+
+.content__inner {
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: lightgray;
+}
+
+/* .content__wrapped {
+    width: 30%;
+    transition-duration: 3s;
+    transition-property: width;
+}
+
+.content__wrapped:hover {
+    width: 100%;
+} */
+
+.content__item {
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+
+    /* transition-duration: 3s;
+    transition-property: width; */
+}
+
+/* .content__item:hover {
+    width: 100%;
+} */
+
+.content__item_1 {
+    width: 30%;
+    background-color: coral;
+    /* transition-timing-function: ease; */
+
+    transition: width 3s ease 0s;
+}
+
+.content__item_1:hover {
+    width: 100%;
+}
+
+.content__item_2 {
+    background-color: indianred;
+    transition-timing-function: ease-in;
+}
+
+.content__item_3 {
+    background-color: lightcoral;
+    transition-timing-function: ease-out;
+}
+
+.content__item_4 {
+    background-color: darksalmon;
+    transition-timing-function: ease-in-out;
+}
+
+.content__item_5 {
+    background-color: salmon;
+    transition-timing-function: linear;
+}
+
+.content__item_6 {
+    background-color: orangered;
+    transition-timing-function: steps(3, start);
+}
+
+.content__item_7 {
+    background-color: darkorange;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}

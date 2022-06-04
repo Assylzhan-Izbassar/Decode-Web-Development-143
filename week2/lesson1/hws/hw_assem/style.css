@@ -1,0 +1,28 @@
+.content {
+  width: 70%;
+  border: 3px solid red;
+  margin: 0 auto;
+}
+
+.content__item {
+  display: inline-block;
+  background-color: azure;
+  text-align: center;
+  width: 33%;
+}
+
+.content__item img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.content__item p {
+  background-color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.content h1 {
+  background-color: lightyellow;
+}

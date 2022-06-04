@@ -1,0 +1,21 @@
+.container {
+    background-color: antiquewhite;
+}
+
+.container__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.container__element {
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.container__element img {
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+    margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.site-content {
+  /* Блочному элементу не надо задавать margin кроме позиционирование margin: 0 auto; */
+  width: 80%;
+  /* Вы наваерное хотели написать width: 100%; , а не width: 100%px; */
+
+  height: 400px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  border: 1px solid black;
+
+  /* Опять же margin и padding не указывается к блокам по БЭМ */
+  /* margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px; */
+
+  display: flex;
+  justify-content: space-around;
+  /* Можно еще добавить align-items: center; для того чтоб контент был по центр и по вертикали */
+  align-items: center;
+}
+
+
+/* вот тут можно было обратиться элементу класса site-content__item, а не .site_content div */
+.site-content__item {
+  /* свойства flex-direction: row; не надо указывать, поскольку это default значение */
+
+  /* Можно дополнить как: */
+  width: 20%;
+  /* И указать justify-content: space-around; в родительском классе */
+
+  text-align: center;
+  cursor: pointer;
+
+  /* Можно вместо margin указать padding */
+  padding: 20px 20px;
+  border: 2px solid silver;
+}
+
+img {
+  /* Здесь надо указать width: 100%, поскольку без этого свойства картина не будет внутри элемента .site-content__item  */
+  width: 100%;
+  border-radius: 100%;
+}
+
+/* Остальное все нормально) Хорошо поработали) */

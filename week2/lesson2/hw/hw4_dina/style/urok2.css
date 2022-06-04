@@ -1,0 +1,55 @@
+/* .flex-container { */
+/* display: flex; */
+/* align-items: flex-start; */
+/* background-color: DodgerBlue; */
+/* } */
+
+/* .flex-container > div { */
+/* background-color: #f1f1f1; */
+/* margin: 10px; */
+/* padding: 20px; */
+/* font-size: 10px;  */
+/* } */
+
+.block {
+  display: flex;
+  background-color: antiquewhite;
+
+  /* То свойства flex-а который ставит контент в центр */
+  justify-content: center;
+  /* Тут из за структуры не то) */
+}
+.block__elem1 {
+  /*  */
+  /* Вот этот блок кода у всех 3 элементов повторяются */
+  display: flex;
+  color: black;
+  padding-left: 20px;
+  /*  */
+  width: 70px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.block__elem2 {
+  /* В элементах не нужно указывать свойства flex */
+  display: flex;
+  color: black;
+  padding-left: 50px;
+}
+.block__elem3 {
+  display: flex;
+  color: black;
+  padding-left: 50px;
+}
+
+.block__text1 {
+  margin-top: 50px;
+}
+
+/* Добавим цвет каждому элементу */
+/* Тут мы можем замеить не равномерные пространство между элементами */
+.block__elem1_colored {
+  background-color: yellow;
+  border: 1px solid red;
+}

@@ -1,0 +1,57 @@
+.content {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box1 {
+  /* position: relative; */
+  /* display: block; */
+  /* top: 20px; */
+
+  /* Вместо padding можно лучше margin  */
+
+  padding: 10px;
+  width: 400px;
+
+  /* Задавать height в целом не стоит, лучше чтобы было знание auto <- то есть по default */
+
+  height: 500px;
+
+  /* Классно что использовали float: left; */
+  float: left;
+}
+
+.box2 {
+  /* position: relative;
+  top: 20px; */
+  padding: 10px;
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+
+.box3 {
+  /* position: relative;
+  top: 20px; */
+  padding: 10px;
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+
+#car {
+  width: 70%;
+  border-radius: 250px;
+  box-shadow: 0 0 5px;
+}
+
+.title {
+  /* font-family: Verdana, Helvetica, Arial, sans-serif; */
+  font-size: 10px;
+}
+
+.text {
+  /* font-family: Verdana, Helvetica, Arial, sans-serif; */
+  font-size: 15px;
+}

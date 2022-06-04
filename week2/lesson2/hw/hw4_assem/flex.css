@@ -1,0 +1,54 @@
+.header__inner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+}
+
+/* Добавил */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__image {
+  width: 41px;
+  height: 41px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 8px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.list__item:nth-child(5),
+.list__item:nth-child(6) {
+  font-weight: 400px;
+  font-size: 10px;
+
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-block: 7px;
+}
+
+.list__item_login {
+  border: 1px solid #fb8f1d;
+  border-radius: 10px;
+}
+
+.list__item_register {
+  border: 2px solid #fb8f1d;
+  border-radius: 8px;
+}

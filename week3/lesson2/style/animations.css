@@ -1,0 +1,105 @@
+.container__inner h2{
+    text-align: center;
+}
+
+.wrapper {
+    height: 60px;
+    background-color: lightgray;
+}
+
+.wrapper__item {
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+
+    /* animation-name: circle;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    animation-delay: 5s;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+
+    /* animation: circle 2s 10 alternate 0s cubic-bezier(0.19, 1, 0.22, 1); */
+}
+
+@keyframes circle {
+    0% {
+        left: 0px;
+    }
+
+    50% {
+        border-radius: 0%;
+    }
+
+    100% {
+        left: 600px;
+    }
+}
+
+/* TRANSFORM */
+
+.content {
+    background-color: lightblue;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content__elem {
+
+    width: 80px;
+    height: 80px;
+
+    background-color: coral;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    transform-origin: 80px 80px;
+
+    /* 
+    .               
+
+
+
+
+
+    .               *
+    */
+
+    transition-duration: 2s;
+    transition-property: transform;
+    /* Значение x и y */
+    /* transform: translate(30px, -30px); */
+}
+
+.content__item_tranlate {
+    position: relative;
+}
+
+.content__elem_translate {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0.5;
+}
+
+.content__elem_translate:hover {
+    transform: translate(30px, -30px);
+}
+
+.content__elem_scale:hover {
+    transform: scale(-1, -1);
+}
+
+.content__elem_rotate:hover {
+    transform: rotate(90deg);
+}
+
+.content__elem_skew:hover {
+    transform: skew(0deg, 40deg);
+}

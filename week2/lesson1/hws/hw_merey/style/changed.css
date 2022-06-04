@@ -1,0 +1,18 @@
+* {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+}
+
+.content__item {
+    /* 
+    Еще обратите внимание на значение display: inline-block;
+    Она делает элементы content строчными, но со свойствами блочного элемента. 
+    То есть гибрит
+    */
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+}

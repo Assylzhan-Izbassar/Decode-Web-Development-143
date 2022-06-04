@@ -1,0 +1,48 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* 
+Блок не должен влиять на свое окружение, 
+т. е. блоку не следует задавать внешнюю геометрию 
+(в виде отступов, границ, влияющих на размеры) и позиционирование. 
+*/
+
+/* Поскольку .container является блоком, здесь не должно быть padding и margin */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container__inner {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.container__item {
+  /* position: relative; */
+  width: 800px;
+}
+
+#car {
+  /* position: relative; */
+  /* margin-right: 25px;
+  margin-bottom: 25px; */
+  margin: 0 25px 25px 0;
+  width: 180px;
+  border-radius: 200px;
+  box-shadow: 0 0 0 1px black;
+  float: left;
+  object-fit: scale-down;
+}
+
+.btn {
+  font-size: 17px;
+  padding: 8px 26px;
+  background-color: #9ca1cc;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}

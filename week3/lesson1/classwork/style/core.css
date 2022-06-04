@@ -1,0 +1,27 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid lightgrey;
+}
+
+.container__inner {
+    padding: 10px;
+    width: 100%;
+}
+
+/* 100% / 3 = 33.33% */
+.container__item {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.container__image {
+    width: 80px;
+    height: 80px;
+    background-color: aqua; 
+    border: 5px solid red;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
