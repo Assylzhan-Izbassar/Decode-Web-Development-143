@@ -56,7 +56,7 @@
 .hi {
     display: flex;
     justify-content: space-between;
-    background: url('imgs/hi__img.png') 0 0 no-repeat;
+    /* background: url('imgs/hi__img.png') 0 0 no-repeat; */
 }
 
 .hi__left {
@@ -85,4 +85,29 @@
     border-radius: 20px;
     background-color: #458FF6;
     color: white;
+}
+
+/* SERVICES */
+
+.services {
+    text-align: center;
+}
+
+.services__title {
+    position: relative;
+    display: inline-block;
+}
+
+.services__header::after {
+    content: '';
+
+    position: absolute;
+    bottom: 0px;
+    left: 42.165px;
+
+    width: 56px;
+    height: 2px;
+
+    background-color: black;
+
 }

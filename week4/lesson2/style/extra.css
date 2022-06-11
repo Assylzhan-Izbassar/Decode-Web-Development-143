@@ -1,0 +1,25 @@
+.test {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.test__inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.test__left {
+    height: 100px;
+    background-color: aqua;
+
+    /* flex-grow: 0;
+    flex-shrink: 1; */
+    /* flex-basis: 400px; */
+    flex: 1 1 auto;
+}
+
+.test__right {
+    background-color: aquamarine;
+    flex: 0 0 20px;
+}
+

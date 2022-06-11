@@ -1,0 +1,32 @@
+.container {
+  border: 2px solid aqua;
+  /* margin-top: 0px auto; */
+  width: 100%;
+  /* Тут height не надо */
+  /* height: 50%; */
+}
+.container__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  /* После добавление display: flex; margin: 0 auto не пишется */
+  /* margin: 0px auto; */
+  /* padding-left: 30px; */
+}
+
+.container__img {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid green;
+}
+
+/*  лучше text-align: center; добавить в .container__item */
+.container__item {
+  text-align: center;
+  margin-left: 10px;
+  width: 30%;
+  height: 10%;
+}

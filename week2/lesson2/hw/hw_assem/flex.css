@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__inner{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__image{
+    display: inline-block;
+}
+
+.logo__image{
+    max-width: 41px;
+    max-height: 41px;
+    text-align: center;
+}
+
+/* Добавил */
+.logo__image img {
+    width: 50%;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list__item{
+    display:inline-block;
+    margin: 20px;
+    font-size: 8px;
+    text-align: center;
+    font-weight: 200px;
+}
+.list__item:nth-child(5),
+.list__item:nth-child(6) {
+    font-weight: 400px;
+    font-size: 10px;
+
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-block: 7px;
+}
+
+.list__item_login {
+    border: 1px solid #fb8f1d;
+    border-radius: 10px;
+}
+
+.list__item_register {
+    border: 2px solid #fb8f1d;
+    background-color:#FB8F1D;
+    border-radius: 8px;
+}
+
+
+.h1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.h1__left{
+    /* width: 350px; */
+    flex: 1 1 500px;
+}
+
+.h1__image {
+    /* 
+    Вот тут, вы задаете flex свойства только картинке.
+    Этого не надо делать.
+    */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    /* И задаете фиксированные размеры картинке */
+    /* width: 1415px;
+    height: 786px; */
+    
+    /* Вместо этого можно: */
+    max-width: 687px;
+    max-height: 654px;
+
+    /* ВОТ ТУТ мы можем корректировать размеры картинки */
+}
+
+.h1__image img {
+    width: 100%;
+}
+
+.h1 button{
+    display: block;
+    width: 80px;
+    height: 40px;
+    border: 5px;
+    border-radius: 7px;
+}
+.h1__left h1{
+    margin-bottom: 40px;
+    line-height: 45px;
+    font-size: 45px;
+}
+.h1__left p{
+    font-size: 21px;
+    font-weight: lighter;
+}

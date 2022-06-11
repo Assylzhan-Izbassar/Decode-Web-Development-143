@@ -1,0 +1,98 @@
+.container__inner {
+    display: flex;
+    flex-direction: column;
+
+    background-color: lightgray;
+    border: 20px solid gray;
+
+    padding: 10px 15px;
+}
+
+.container__flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__item {
+    position: relative;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    margin: 0px 10px 15px 10px;
+}
+
+
+.container__item h3:hover {
+    color: blue;
+}
+
+.container__item h3:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 5px;
+
+    background-color: blue;
+
+    animation-name: line;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.container__item p::before {
+    content: 'Danger! ';
+    color: red;
+}
+
+.container__item p::after {
+    content: '&';
+    color: blueviolet;
+}
+
+.container__img img {
+    width: 41px;
+    height: auto;
+}
+
+.container__img {
+    margin-top: 20px;
+}
+
+.container__title {
+    margin-bottom: 10px;
+}
+
+.container__item p {
+    margin: 0px 25px 10px 25px;
+    /* U L B R */
+}
+
+.container__img i {
+    font-size: 42px;
+    color: blue;
+}
+
+
+/* Decoration */
+
+.container__inner {
+    position: relative;
+}
+
+.element3 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 10;
+}
