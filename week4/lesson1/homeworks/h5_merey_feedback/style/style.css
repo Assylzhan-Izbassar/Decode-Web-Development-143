@@ -1,0 +1,300 @@
+  @import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Padauk&family=Playfair+Display:wght@500&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+
+  body {
+    /* font-family: "Padauk", sans-serif; */
+    font-family: 'Inter', sans-serif;
+    max-width: 1600px;
+    margin: 0px;
+  }
+
+  .wrapper {
+    position: relative;
+    /* width: 80%; */
+    /*   Блоку не следует задавать отступы, только у элементов */
+    /* margin-top: -8px; */
+  }
+
+  /* Контейнер задается для адаптивности */
+  .container {
+    /* position: relative; */
+    max-width: 1219px;
+    margin: 0 auto;
+  }
+
+
+  /* 
+  _________________ HEADER _________________
+  */
+
+  .header__inner {
+    /* position: fixed; */
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 1;
+
+    margin-top: 35px;
+  }
+
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .list {
+
+    max-width: 663px;
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    /*   Блоку не следует задавать отступы, только у элементов */
+    /* padding-left: 790px; */
+    line-height: 60px;
+
+    /* Там указано 16px */
+    font-size: 16px;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .list__item:first-child {
+    margin-left: 0px;
+  }
+
+  .list__item:last-child {
+    margin-left: 18px;
+  }
+
+  .list__item {
+    /* display: inline-block; */
+    color: #B8BECD;
+    margin-left: 34px;
+
+    cursor: pointer;
+  }
+
+  .list__item:hover {
+    color: #202336;
+    font-weight: 500;
+  }
+
+  /* Login buttons */
+
+  .log-btn {
+    width: 132px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .list__item_login {
+    width: 130px;
+    height: 42px;
+
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
+  }
+
+  .list__item_login:hover {
+    background-color: #FB8F1D;
+    color: white;
+  }
+
+  .list__item_register {
+    background-color: #FB8F1D;
+    color: white;
+    margin-left: 8px;
+  }
+
+  .list__item_register:hover {
+    width: 130px;
+    height: 42px;
+    background-color: white;
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
+  }
+
+  /* .login__item:first-child:hover {
+    background-color: #fb8f1d;
+    color: white;
+  }
+
+  .login__item:last-child:hover {
+    background-color: white;
+    padding: 8px 31px;
+    border: 2px solid #fb8f1d;
+    color: #fb8f1d;
+  } */
+
+  /* 
+  _________________ 1st BLOCK _________________
+  */
+
+  .hfinder__inner {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hfinder__image {
+    max-width: 687px;
+    max-height: 654px;
+
+    margin-left: 147px;
+  }
+
+  .hfinder__image img {
+    object-fit: fill;
+  }
+
+  .hfinder__content {
+    max-width: 471px;
+    /* max-height: 344px; */
+  }
+
+  .hfinder {
+    /* display: flex; */
+    /* position: relative; */
+    /* width: 80%; */
+    /* height: 690px; */
+    margin: 0 auto;
+    /* padding-top: 150px; */
+    /* justify-content: space-between; */
+    flex-basis: auto;
+  }
+
+  .hfinder__h1 {
+    font-size: 32px;
+    line-height: 80px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    /* width: 328px; */
+    /* height: 300px; */
+    mix-blend-mode: normal;
+  }
+
+  .hfinder__h1 h1 {
+    margin: 0px;
+    color: #202336;
+  }
+
+  .hfinder__options {
+    font-family: 'Inter', sans-serif;
+    width: 470px;
+    margin-top: 74px;
+
+    flex-grow: 0;
+  }
+
+  .hfinder__title h3 {
+    font-size: 22px;
+    color: #202336;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0px 0px 21px 0px;
+  }
+
+  .hfinder__title::after {
+    position: absolute;
+    content: "";
+    /* top: 415px;
+    left: 198px; */
+    border-radius: 10px;
+    width: 32px;
+    height: 2px;
+    background-color: #202336;
+  }
+
+  .hfinder__sub {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0px;
+    margin: 71px 0px 0px 0px;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  .hfinder__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 139px;
+  }
+
+  .hfinder__sub li {
+    width: 218.4px;
+    height: 50.4px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+  }
+
+  .hfinder__sub a {
+    display: inline-block;
+    text-decoration: none;
+    color: #202336;
+    text-align: center;
+    margin-left: 31px;
+  }
+
+  .hfinder__column li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hfinder__sub img {
+    float: right;
+    padding: 17px 25px;
+  }
+
+  /* Explore btn */
+
+  .hfinder__link {
+    margin-top: 47px;
+  }
+
+  .hfinder__link button {
+
+    background-color: #FB8F1D;
+    font-family: 'Mulish';
+    border-radius: 8px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 180px;
+    height: 52px;
+
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .hfinder__link button:hover {
+    background-color: white;
+    border: 1px solid #FB8F1D;
+    color: #FB8F1D;
+  }
+
+  /* DECORATE */
+
+
+  .element2 {
+    position: absolute;
+    top: 494px;
+    left: 1%;
+  }
+
+  .element3 {
+    position: absolute;
+    top: 220px;
+    left: 41%;
+  }
