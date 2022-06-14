@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Mulish:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  font-family: 'Playfair Display', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+/* MAIN BUTTON */
+
+.sunny-btn {
+  max-width: 180px;
+  max-height: 52px;
+}
+
+.sunny-btn__inner button{
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+
+  width: 100%; 
+
+  border-radius: 8px;
+  background-color: #FB8F1D;
+  color: white;
+  border: 0px;
+
+  line-height: 52px;
+}
+
+
+/* DECORATIONS */
+
+.decoration {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+#elem1, #elem2  {
+  position: absolute;
+}
+
+#elem1 {
+  top: 494px;
+  left: 2.5%;
+}
+
+#elem2 {
+  top: 220px;
+  left: 41%;
+}

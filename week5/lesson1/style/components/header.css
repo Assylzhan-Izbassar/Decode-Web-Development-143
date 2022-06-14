@@ -1,0 +1,64 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 43px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    margin-right: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+.header__item a {
+    color: #B8BECD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__item a:hover {
+    color: #202336;
+}
+
+/* LOGO */
+
+.header__logo {
+    width: 41px;
+    height: 41px;
+}
+
+/* BUTTON */
+
+.header__item_btn {
+    width: 132px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 8px;
+}
+
+/* LOGIN */
+
+.header__item_login {
+    border: 1px solid #FB8F1D;
+}
+
+.header__item_login a {
+    color: #FB8F1D;
+}
+
+/* REGISTER */
+
+.header__inner_register {
+    border: 1px solid #FB8F1D;
+    background-color: #FB8F1D;
+}
+
+.header__inner_register a {
+    color: white;
+}
