@@ -1,0 +1,49 @@
+.header_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+.header_logo{
+    width: 41px;
+    height: 41px;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    /* margin-left тут не надо добавлять, портит позицию */
+    /* margin-left: 515px; */
+}
+.list_item{
+    margin-right: 35px;
+    /* значение font-family это строка */
+    font-family: 'Inter';
+
+    color: #B8BECD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.list_item:hover{
+    color: #202336;
+
+}
+.list_item_btn{
+    width: 132px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 8px;
+}
+.list_item_login{
+    border: 1px solid #FB8F1D;
+}
+.list_item_Register{
+    background: #FB8F1D;
+    border: 1px solid #FB8F1D;
+}
+.list_item_Register {
+    color: #FFFFFF
+}
+.list_item_login {
+    color: #FB8F1D;
+}

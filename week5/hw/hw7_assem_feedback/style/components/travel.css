@@ -1,0 +1,99 @@
+.travel_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Добавляем верхний отступ */
+    margin-top: 80px;
+}
+
+.travel_img{
+    max-width: 687px;
+    max-height: 654px;
+    /* margin-left: 808px; */
+
+}
+.travel_img img{
+    object-fit: scale-down;
+    
+}
+.travel_title{
+    width: 356px;
+}
+.travel_title h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #202336;
+}
+.travel_title p{
+    position: relative;
+    margin-top: 74px;
+    padding-bottom: 21px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+}
+.travel_title p::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    width: 32px;
+    height: 2px;
+    background: #202336;
+    border-radius: 4px; 
+}
+
+.travel_options{
+    width: 470px;
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+
+.travel_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.travel_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+    border: 0.8px solid #AFB0B9;
+
+    flex: 1 0 158px;
+    max-width: 158px;
+    max-height: 42px;
+
+    padding: 9px 21px;
+    border-radius: 6px;
+    color: #4a4c53;
+    font-size: 15px;
+    line-height: 32px;
+    margin-bottom: 35px;
+
+}
+.travel_item_explore{
+    display: flex;
+    align-items: center;
+    
+    max-width: 120px;
+    max-height: 32px;
+    padding: 9px 21px ;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    background-color: #FB8F1D;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
