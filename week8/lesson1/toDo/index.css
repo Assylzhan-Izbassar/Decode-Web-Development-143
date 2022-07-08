@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    min-height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.content__inner {
+    margin-top: 80px;
+
+    padding-left: 40px;
+
+    line-height: 30px;
+}
+
+.input {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.input label, .input button {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.input input {
+    flex: 1 1 auto;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.input button {
+    width: 80px;
+    background-color: gold;
+    border: 1px solid chocolate;
+    color: whitesmoke;
+    border-radius: 5px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, ul, li, a, p {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.content__inner {
+    margin-top: 80px;
+}
+
+.content__list {
+    margin-top: 50px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.content__item {
+    position: relative;
+
+    text-align: center;
+
+    padding-bottom: 40px;
+}
+
+.content__item:hover {
+    box-shadow: 2px 3px 10px red;
+}
+
+.content__item:hover::after {
+
+    content: "Купить";
+    position: absolute;
+
+    bottom: 5px;
+    left: 50%;
+
+    color: white;
+    line-height: 30px;
+
+    margin: 0px -90px;
+
+    width: 180px;
+    height: 30px;
+    background-color: red;
+}
+
+.content__rating {
+    margin: 10px 0px;
+}
+
+.content__rating img, .content__rating p {
+    display: inline-block;
+}
+
+.content__img {
+    width: 160px;
+    height: 160px;
+
+    margin: 0 auto;
+}
+
+.content__img img {
+    width: 100%;
+}
+
+.content__title {
+    width: 200px;
+}
+
+.content__price {
+    margin-top: 35px;
+}

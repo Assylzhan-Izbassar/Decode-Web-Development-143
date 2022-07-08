@@ -1,0 +1,21 @@
+.coordinates__inner {
+    margin: 0 auto;
+    
+    background-color: lightgray;
+
+    width: 500px;
+    height: 500px;
+    /* Grid */
+
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+}
+
+.dot {
+    background-color: black;
+}
+
+.red-dot {
+    background-color: red;
+}
