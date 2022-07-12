@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__inner">
+            <p class="wrapper__item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate alias id voluptatum molestiae sed quas nostrum soluta! Nisi modi aperiam dicta consectetur voluptates officia non deleniti. Delectus provident nostrum ab.</p>
+            <p id="wrapper__item-2" class="wrapper__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi mollitia vel id molestiae asperiores, illum dolorem! Expedita, earum voluptates est culpa, nam possimus commodi eveniet at consectetur temporibus quidem perspiciatis!</p>
+            <p class="wrapper__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore at iste reprehenderit ratione nostrum dignissimos libero sint dolorum earum necessitatibus dicta, asperiores inventore amet aliquid. Ex vitae nisi temporibus non?</p>
+            <p class="wrapper__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, labore a cumque necessitatibus nihil sunt, recusandae obcaecati, aliquam earum velit eos deserunt amet doloremque rem saepe illo iure placeat aut.</p>
+        </div>
+
+        <div class="box">
+        </div>
+
+        <div class="to-do">
+            <!-- имя-блока__имя-элемента_имя-модификатора -->
+            <div class="to-do__inner">
+                <div class="to-do__field">
+                    <div class="to-do__field-input">
+                        <label for="to-do-field">To Do</label>
+                        <input id="to-do-field" type="text">
+                        <button type="submit">Add</button>
+                    </div>
+                    <p class="error">The input is not satisfied!</p>
+                </div>
+
+                <ul class="to-do__list">
+                    <div class="to-do__item">
+                        <li>Clean a house</li>
+                        <input type="checkbox">
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="code/todo.js"></script>
+</body>
+</html>
