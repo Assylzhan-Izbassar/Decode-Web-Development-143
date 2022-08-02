@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.content__inner {
+    margin-top: 40px;
+    position: relative;
+}
+

@@ -1,0 +1,65 @@
+.slider {
+    background-color: coral;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__window {
+    width: 256px;
+    height: 256px;
+
+    border: 2px solid black;
+
+    margin: 0px auto;
+
+    /* Главное свойства это overflow */
+    overflow: hidden;
+}
+
+.slider__inner {
+    width: 768px;
+    display: flex;
+    position: relative;
+    left: 0px;
+
+    transition-duration: 2s;
+    transition-property: left;
+}
+
+.slider__window img{
+    width: 256px;
+    height: 256px;
+
+    object-fit: cover;
+}
+
+.btns {
+    width: 260px;
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+.slider__circles {
+    width: 60px;
+
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__circle {
+    width: 10px;
+    height: 10px;
+
+    border: 1px solid black;
+
+    border-radius: 10px;
+}

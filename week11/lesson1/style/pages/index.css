@@ -1,0 +1,27 @@
+body, ol, ul, li, a {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    color: white;
+}
+
+ul, a, li {
+    text-decoration: none;
+}
+
+hr {
+    width: 90%;
+}
+
+
+.frame {
+    height: 100vh;
+}
+
+.frame__inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,85 @@
+.calc {
+    width: 270px;
+    height: 540px;
+
+    background-color: rgb(36,37,47);
+    border-radius: 15px;
+}
+
+.calc__inner {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 240px;
+    border: 1px solid rgb(60,61,77);
+}
+
+.calc__window {
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px;
+}
+
+.window-wrapper {
+    display: flex;
+}
+
+.calc__window-inner {
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.calc__window-btn {
+    margin-left: 10px;
+}
+
+.calc__window-btn button {
+    background-color: rgb(231,182,65);
+    border: 1px solid rgb(46, 47, 61);
+    color: white;
+    border-radius: 5px;
+
+    padding: 3px 5px;
+}
+
+.calc__btns {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    font-size: 18px;
+
+    padding: 0px 15px 15px 15px;
+}
+
+.calc__item {
+    width: 55px;
+    height: 55px;
+
+    margin-top: 10px;
+
+    background-color: rgb(46, 47, 61);
+    border-radius: 55px;
+
+    line-height: 55px;
+    text-align: center;
+}
+
+.calc__item_operations {
+    background-color: rgb(60,61,77);
+    color: rgb(231,182,65);
+}
+
+.calc__item_equal {
+    background-color: rgb(231,182,65);
+}
